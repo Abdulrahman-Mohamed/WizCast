@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">weather app</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">clear</string>
+    <string name="real_feel">Real feel</string>
+    <string name="degree">\u00B0C</string>
+    <string name="pressure">الضغط</string>
+    <string name="humidety">الرطوبه</string>
+    <string name="hour_title">الان</string>
+    <string name="add_place">اضف للشاشه الرئيسيه</string>
+    <string name="unite_metric">\u00B0C</string>
+    <string name="unite_imperial">\u00B0F</string>
+    <string name="title_settings">اعدادات</string>
+    <string name="metric_Choice">ميتري</string>
+    <string name="imperial_Choice">ايمبيريال</string>
+    <string name="english">الانجليزيه</string>
+    <string name="arabic">العربيه</string>
+    <string name="unite">الوحده</string>
+    <string name="language">اللغه</string>
+</resources>

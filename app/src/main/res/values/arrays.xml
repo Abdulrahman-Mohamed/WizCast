@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="unitSystemEntries">
+        <item>@string/metric_Choice</item>
+        <item>@string/imperial_Choice</item>
+    </string-array>
+
+    <string-array name="unitSystemValues">
+        <item>metric</item>
+        <item>imperial</item>
+    </string-array>
+
+    <string-array name="languageEntries">
+        <item>@string/english</item>
+        <item>@string/arabic</item>
+    </string-array>
+
+    <string-array name="languageValues">
+        <item>en</item>
+        <item>ar</item>
+    </string-array>
+
+
+
+</resources>

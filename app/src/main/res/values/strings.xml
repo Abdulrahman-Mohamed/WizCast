@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">weather app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="description">clear</string>
+    <string name="real_feel">Real feel</string>
+    <string name="degree">\u00B0C</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidety">Humedity</string>
+    <string name="hour_title">now</string>
+    <string name="unite_metric">\u00B0C</string>
+    <string name="add_place">Add to start Page</string>
+    <string name="unite_imperial">\u00B0F</string>
+    <string name="title_settings">Settings</string>
+    <string name="metric_Choice">Metric</string>
+    <string name="imperial_Choice">Imperial</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="unite">Unite</string>
+    <string name="language">Languages</string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/viewPagerFragment">
+
+    <fragment
+        android:id="@+id/viewPagerFragment"
+        android:name="com.abdullrahman.weatherapp.viewpager.ViewPagerFragment"
+        android:label="fragment_view_pager"
+        tools:layout="@layout/fragment_view_pager" >
+        <action
+            android:id="@+id/action_viewPagerFragment_to_addLocations"
+            app:destination="@id/addLocations" />
+        <action
+            android:id="@+id/action_viewPagerFragment_to_settings2"
+            app:destination="@id/settings2" />
+    </fragment>
+    <fragment
+        android:id="@+id/addLocations"
+        android:name="com.abdullrahman.weatherapp.fragments.AddLocations"
+        android:label="fragment_add_locations"
+        tools:layout="@layout/fragment_add_locations" >
+        <action
+            android:id="@+id/action_addLocations_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment" />
+        <action
+            android:id="@+id/action_addLocations_to_placeWeeklyForcast"
+            app:destination="@id/placeWeeklyForcast" />
+    </fragment>
+    <fragment
+        android:id="@+id/placeWeeklyForcast"
+        android:name="com.abdullrahman.weatherapp.fragments.PlaceWeeklyForcast"
+        android:label="PlaceWeeklyForcast"
+        tools:layout="@layout/fragment_place_weekly_forcast">
+        <argument
+            android:name="place"
+            app:argType="com.abdullrahman.weatherapp.model.ModelLocation"
+            />
+        <action
+            android:id="@+id/action_placeWeeklyForcast_to_viewPagerFragment"
+            app:destination="@id/viewPagerFragment"
+
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/settings2"
+        android:name="com.abdullrahman.weatherapp.settings.Settings"
+        android:label="Settings" />
+</navigation>
