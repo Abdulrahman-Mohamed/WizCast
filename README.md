@@ -9,7 +9,7 @@
     3-dataBinding 
     4-Retrofit
     5-Gson&json
-    6-RoomDatabase & shared preferences
+    6-RoomDatabase&shared preferences
 # Preview
 
 ![](preview/wezcast_AdobeCreativeCloudExpress.gif)
